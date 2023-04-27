@@ -2,9 +2,132 @@
     margin: 0;
     padding: 0;
 }
-#Iframe-Container{
-    background-color: aliceblue;
+body{
+    width: 100%;
+    font-family: 'Amaranth', sans-serif;
+    background-image: url("https://images.hdqwalls.com/wallpapers/bright-moon-minimal-4k-nl.jpg");
+    background-size: cover;
+    
+}
+nav{
+    border-radius: 50px;
+}
+
+
+#Hero{
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50px ;
+    margin: 4% 4%;
+    width: 95%;
+    background-color: rgba(248, 249, 251, 0.925);
+    box-shadow: 5px 3px 0 0    rgba(0, 0, 0, 0.212);
+    max-height: fit-content;
+}
+
+.container-fluid{
+    border-radius: 50px;
+    background-color: rgba(248, 249, 251, 1);
+    padding: 5px;
+}
+#navbarNav{
+    
+    justify-content: center;
+    background-color: rgba(248, 249, 251, 1);
+}
+#navandselect{
+    padding: 5px 15px;
+    width: 35%;
+    border-radius: 50px;
+    background-color: rgba(248, 249, 251, 1);
+    margin-left: 20px;
+}
+
+#iframecontainer{
+    
+    border-radius: 50px;
+    background-color: rgba(77, 243, 255, 0.562);
+    margin: 0 2%;
     width: 100%;
     height: 80vh;
+    margin-top: 2.5vh;
+    color: black;
     padding: 10px 20px;
 }
+iframe{
+    width: 100%;
+       
+}
+
+select{
+    width: 100%;
+    height: 10vh;
+}
+
+optgroup:hover{
+    color: white;
+}
+.popupmenu{
+   opacity: 0;
+}
+#recipiesId{
+    background-color: rgba(6, 215, 252, 0.11);
+    text-align: left;
+}
+#secondsection{
+    background-color: rgba(121, 98, 34, 0.11);
+    text-align: left;
+    width: 100%;
+}
+h1, h2, h5 ,p {
+    text-align: center;
+    
+}
+h1{
+    color: rgb(255, 0, 0);
+}
+p{
+    color:rgb(128, 2, 2);
+}
+.row{
+    margin-top: 15vh;
+    justify-content: center;
+}
+@media screen and (max-width : 900px) {
+    #Hero{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    #navandselect{
+        
+        width: 90%;
+        margin: auto;
+        height: 65vh;
+        border-radius: 50px;
+        
+        background-color: rgba(248, 249, 251, 1);
+        
+    }
+    .row{
+        margin-top: 2vh;
+        justify-content: center;
+    }
+    #iframecontainer{
+    
+        border-radius: 50px;
+        background-color: rgba(77, 243, 255, 0.562);
+        margin: auto;
+        width: 90%;
+        min-height: 80vh;
+        margin-top: 2.5vh;
+        color: black;
+        
+    }
+    
+}
+
+
