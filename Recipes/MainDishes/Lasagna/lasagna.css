@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body {
+  background-image:url(https://www.thehealthhub.com/app/uploads/2021/11/Health-Hub-how-much-omega-6-per-day.jpg);
+} */
+
+/* Aleksandar Code */
+.overlay {
+padding-left: 50px;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+padding-bottom: 30px;
+}
+
+.left-side {
+  width: 55%;
+}
+
+.container > div > h2 {
+    color: white;
+    padding-top: 5%;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.container > div > p {
+
+  margin-top: 50px;
+  font-style: oblique;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  padding: 30px 0;
+  text-align: left;
+  margin-right: 30px;
+  color: white;
+}
+
+
+.container {
+    display: flex;
+     }
+  
+  .header-container {
+    background-image: url("https://www.inspiredtaste.net/wp-content/uploads/2022/06/Cheese-Lasagna-Recipe-5-1200.jpg");
+    border-radius: 4%;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin-top: 3%;
+  }
+  .middle {
+    opacity: 1;
+    text-align: center;
+  }
+  .hover-container {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+  }
+  .hover-container:hover {
+    transition: .5s ease;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: large;
+ 
+  }
+
+  #image-title {
+    padding-top: 140px;
+    color: white;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+  }
+
+table, th, td {
+    margin-top: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 1.2px;
+
+  }
+li {
+    list-style: none;
+  }
+#mohammed {
+    text-align: center;
+
+}
+#time {
+  text-align: center;
+}
+.servings-container {
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-display: left;
+  font-size: medium;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image:url(https://www.thehealthhub.com/app/uploads/2021/11/Health-Hub-how-much-omega-6-per-day.jpg); 
+  border: none;  
+  background-size: cover; 
+  background-position: right;
+
+
+}
+
+
+/* Aleksandar Code End */
