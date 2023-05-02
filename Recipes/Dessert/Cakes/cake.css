@@ -58,7 +58,7 @@ border-radius: 10px;
 
 .imageOverlay:hover h2 {
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     color: white;
     opacity: 1;
@@ -103,3 +103,31 @@ a {
     margin-top: 50px;
     margin-bottom: 20px;
 }
+@media screen and (max-width : 900px) {
+    .leftContainer h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .topContainer {
+        flex-wrap: wrap;
+    }
+    .imageOverlay {
+        
+        width: 150px;
+        height: 150px;
+        
+    }
+    
+    .imageOverlay h2
+    {
+        width: 150px;
+        height: 150px;
+        
+    }
+    .imageOverlay:hover h2 {
+       
+        font-size: 16px;
+        
+    }
+}
+    

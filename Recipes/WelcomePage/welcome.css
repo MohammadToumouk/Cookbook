@@ -29,3 +29,16 @@ p {
     color: white;
     text-align: center;
 }
+@media screen and (max-width : 900px) {
+    h1 {
+        font-size: 30px;
+        margin-bottom: 75px;
+    }
+    
+    p {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+    
+    }
