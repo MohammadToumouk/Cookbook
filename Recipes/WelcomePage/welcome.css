@@ -16,12 +16,12 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 200px;
-    margin-bottom: 150px;
+    margin-top: 125px;
+    margin-bottom: 100px;
 }
 
 p {
