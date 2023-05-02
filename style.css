@@ -71,8 +71,9 @@ select{
     width: 60%;
     height: 50px;
     border-radius: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border: none;
+    border-right: 15px transparent solid;
+    padding-left: 15px;
 }
 
 optgroup{
