@@ -7,7 +7,7 @@
 body{
     width: 100%;
     font-family: 'Amaranth', sans-serif;
-    background-image: url("https://images.hdqwalls.com/wallpapers/bright-moon-minimal-4k-nl.jpg");
+    background-image: url("https://wallpapers.com/images/hd/2560x1440-black-wallpaper-qeb1t2mdo52iv94m.jpg");
     background-size: cover;
     
 }
@@ -36,7 +36,7 @@ nav{
 }
 #navbarNav{
     
-    justify-content: center;
+    justify-content: flex-end;
     background-color: rgba(248, 249, 251, 1);
 }
 #navandselect{
@@ -96,6 +96,9 @@ optgroup:hover{
     text-align: left;
     width: 100%;
 }
+form > .col-auto > p {
+    color: grey;
+}
 h1, h2, h5 ,p {
     text-align: center;
     
@@ -104,12 +107,13 @@ h1{
     color: rgb(255, 0, 0);
 }
 p{
-    color:rgb(128, 2, 2);
+    color:rgb(0, 0, 0);
 }
 .row{
     margin-top: 15vh;
     justify-content: center;
 }
+
 @media screen and (max-width : 900px) {
     #Hero{
         display: flex;
@@ -123,7 +127,7 @@ p{
         margin: auto;
         height: 65vh;
         border-radius: 50px;
-        
+        justify-content: center;
         background-color: rgba(248, 249, 251, 1);
         
     }
