@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+p {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
