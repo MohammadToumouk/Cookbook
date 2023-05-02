@@ -116,9 +116,17 @@ li {
   border: none;  
   background-size: cover; 
   background-position: right;
-
-
 }
 
-
+.share-btn {
+  background-color: rgb(99, 99, 243);
+  font-size: 1em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+  color: white;
+  font-weight: 500;
+  width: 100px;
+  height: 50px;
+  border-radius: 12px;
+}
 /* Aleksandar Code End */
