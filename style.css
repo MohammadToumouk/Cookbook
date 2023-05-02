@@ -127,7 +127,7 @@ p{
         
         width: 90%;
         margin: auto;
-        height: 65vh;
+        height: 70vh;
         border-radius: 50px;
         justify-content: center;
         background-color: rgba(248, 249, 251, 1);
@@ -146,8 +146,9 @@ p{
         min-height: 80vh;
         margin-top: 2.5vh;
         color: black;
-        
+        padding: 30px 25px;
     }
+    
     
 }
 
