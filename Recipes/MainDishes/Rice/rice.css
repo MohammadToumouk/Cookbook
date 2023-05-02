@@ -132,3 +132,49 @@ li {
 }
 
 /* Aleksandar Code End */
+
+@media screen and (max-width : 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+     }
+     .header-container {
+      background-image: url("https://www.inspiredtaste.net/wp-content/uploads/2022/06/Cheese-Lasagna-Recipe-5-1200.jpg");
+      border-radius: 4%;
+      background-size: cover;
+      width: 200px;
+      height: auto;
+      
+      
+      margin: 10px auto 10px auto;
+      
+    }
+    table, th, td {
+      
+      font-size: 16px;
+      margin: auto;
+  
+    }
+    .overlay {
+      padding-left: 0;
+      }
+      .left-side {
+        width: 100%;
+        text-align: center;
+      }
+      .container > div > h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .container > div > p {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 14px;
+      margin-right: 0px;
+
+    }
+    
+  
+}
